@@ -8,7 +8,7 @@ This project uses soil nutrients (N, P, K), temperature, humidity, pH, and rainf
 
 ## Dataset
 
-- `crop recomend.csv` — Soil and climate parameters with corresponding crop labels
+- `crop_recommendation.csv` — Soil and climate parameters with corresponding crop labels
 
 ## Model
 
@@ -37,7 +37,7 @@ Saved artifacts:
 
 1. Open the notebook:
    ```bash
-   jupyter notebook "crop recomend.ipynb"
+   jupyter notebook crop_recommendation.ipynb
    ```
 2. Run all cells to train the model and see predictions
 3. Use the saved `.joblib` files to load the model for inference

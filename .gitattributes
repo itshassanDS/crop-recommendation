@@ -1,0 +1,13 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# CSV files
+*.csv text
+
+# Notebooks
+*.ipynb text
+
+# Binary files
+*.joblib binary
+*.png binary
+*.jpg binary
